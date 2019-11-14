@@ -57,11 +57,31 @@
     "hed hed hed"
     "nag nag nag"
     "ar1 ar1 ar1"
-    "ar2 ar2 ar2"
     "ads ads ads"
+    "ar2 ar2 ar2"
     "bot bot bot"
 
     ;
   }
+
+    
+}
+
+@media (max-width:1024px)and (min-width:376px){
+  
+    #app{
+      grid-template-columns: repeat(3,1pr);
+      grid-template-rows: 25% 10% 25% 25% 15% ;
+      width: 100%;
+      grid-template-areas: 
+      'hed hed hed'
+      'nag nag nag'
+      'ar1 ads ads'
+      'ar2 ads ads'
+      'bot bot bot'
+      
+      
+      ;
+    }
 
 }
