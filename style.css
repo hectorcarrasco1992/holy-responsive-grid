@@ -70,15 +70,15 @@
 @media (max-width:1024px)and (min-width:376px){
   
     #app{
-      grid-template-columns: repeat(3,1pr);
+      grid-template-columns: repeat(2,1pr);
       grid-template-rows: 25% 10% 25% 25% 15% ;
       width: 100%;
       grid-template-areas: 
-      'hed hed hed'
-      'nag nag nag'
-      'ar1 ads ads'
-      'ar2 ads ads'
-      'bot bot bot'
+      'hed hed '
+      'nag nag '
+      'ar1 ads '
+      'ar2 ads '
+      'bot bot '
       
       
       ;
