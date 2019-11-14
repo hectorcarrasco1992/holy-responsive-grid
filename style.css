@@ -52,14 +52,14 @@
   #app{
     display: grid;
     grid-template-rows: 15% 10% 20% 20% 20% 15%;
-    grid-template-columns: repeat(3, 1pr);
+    grid-template-columns: 100%;
     grid-template-areas:
-    "hed hed hed"
-    "nag nag nag"
-    "ar1 ar1 ar1"
-    "ads ads ads"
-    "ar2 ar2 ar2"
-    "bot bot bot"
+    "hed "
+    "nag "
+    "ar1 "
+    "ads "
+    "ar2 "
+    "bot"
 
     ;
   }
